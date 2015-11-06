@@ -12,7 +12,7 @@
 # in this file.
 
 module Volt
-  module S3ImageResizer
+  module ImageResizer
     # Your code goes here...
   end
 end

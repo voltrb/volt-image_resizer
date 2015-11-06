@@ -1,9 +1,9 @@
 require 'uri'
 require 'net/http'
 require 'fileutils'
-require 's3_image_resizer/lib/disk_file_cache'
+require 'image_resizer/lib/disk_file_cache'
 
-module S3ImageResizer
+module ImageResizer
   module Downloader
     ORIGINAL_PATH = "tmp/resize_original_images"
     FileUtils.mkdir_p(ORIGINAL_PATH)

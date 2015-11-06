@@ -1,7 +1,7 @@
-require 's3_image_resizer/lib/disk_file_cache'
-require 's3_image_resizer/lib/downloader'
+require 'image_resizer/lib/disk_file_cache'
+require 'image_resizer/lib/downloader'
 
-module S3ImageResizer
+module ImageResizer
   class ResizerController < Volt::HttpController
     include Downloader
     RESIZED_PATH  = "tmp/resized_images"

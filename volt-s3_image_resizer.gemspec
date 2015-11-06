@@ -1,14 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'volt/s3_image_resizer/version'
+require 'volt/image_resizer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "volt-s3_image_resizer"
-  spec.version       = Volt::S3ImageResizer::VERSION
+  spec.name          = "volt-image_resizer"
+  spec.version       = Volt::ImageResizer::VERSION
   spec.authors       = ["Ryan Stout"]
-  spec.email         = ["ryanstout@gmail.com"]
-  spec.summary       = %q{A gem that provides an image resizing service with s3 caching}
+  spec.email         = ["ryan@agileproductions.com"]
+  spec.summary       = %q{A gem that provides an image resizing service with optional amazon cloudfront caching}
   spec.homepage      = ""
   spec.license       = "MIT"
 

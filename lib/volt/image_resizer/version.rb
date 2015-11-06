@@ -1,5 +1,5 @@
 module Volt
-  module S3ImageResizer
+  module ImageResizer
     VERSION = "0.1.0"
   end
 end

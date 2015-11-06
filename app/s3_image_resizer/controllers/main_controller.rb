@@ -1,4 +1,4 @@
-module S3ImageResizer
+module ImageResizer
   class MainController < Volt::ModelController
   end
 end
